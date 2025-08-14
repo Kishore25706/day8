@@ -1,0 +1,39 @@
+package Day8;
+
+public class Main2 {
+	
+class Dad
+{
+	void property()
+	{
+		System.out.println("House,Lands,Money");
+	}
+}
+class Son extends Dad
+{
+	void show() {
+		System.out.println("Bike");
+	}
+}
+class Daughter extends Dad{
+	void display() {
+		System.out.println("Jewel");
+	}
+}
+
+	public static void main(String[] args) {
+	   Main2 obj= new Main2();
+       obj.property();	  
+
+	}
+
+	private void property() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+		
+	}
+
+
