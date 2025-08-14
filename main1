@@ -1,0 +1,33 @@
+package Day8;
+
+class Man
+{
+	void display()
+	{
+		System.out.println("Villa");
+	}
+}
+class moh extends Man{
+	void property()
+	{
+		System.out.println("House,Lands,Money");
+	}
+}
+class Dha extends moh
+{
+	void show()
+	{
+		System.out.println("Bike");
+	}
+}
+public class Main1 {
+
+	public static void main(String[] args) {
+		Dha obj=new Dha();
+		obj.property();
+		
+		
+
+	}
+
+}
