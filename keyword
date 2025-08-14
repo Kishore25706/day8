@@ -1,0 +1,21 @@
+package Day8;
+
+public class thiskeyword {
+	int age;
+	String name;
+	thiskeyword(int age, String name)
+	{
+		this.age=age;
+		this.name=name;
+	}
+	void display() {
+		System.out.println(age+ " "+name);
+	}
+	public static void main(String[] args) {
+		thiskeyword obj =new thiskeyword(5,"Aakash");
+		obj.display();
+		
+
+	}
+
+}
