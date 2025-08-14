@@ -1,0 +1,22 @@
+package Day8;
+
+public class task3 {
+	String hotelname;
+	String food;
+	int price;
+public static void main(String[] args) {
+	task3 obj=new task3();
+	System.out.println(obj.hotelname);
+	task3 obj1= new task3();
+	System.out.println(obj1.price);
+	task3 obj2=new task3();
+	System.out.println(obj2.price);
+	obj.price=50;
+	obj.hotelname="Dharsan";
+	System.out.println(obj.price);
+	System.out.println(obj.hotelname);
+	
+}
+} 
+
+	
