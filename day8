@@ -1,0 +1,35 @@
+package Day8;
+
+class Land{
+	void property() {
+		System.out.println("house,lands,villa");
+	}
+}
+class House extends Land
+{
+	void show(){
+		System.out.println("bike");
+	}
+}
+class Villa extends House
+{
+	void display() {
+		System.out.println("jewel");
+	}
+
+	public void property() {
+		
+		
+	}
+	}
+	public class siva{
+	
+	public static void main(String[] args) {
+		Villa obj=new Villa();
+		obj.property();
+		
+		
+
+	}
+
+}
